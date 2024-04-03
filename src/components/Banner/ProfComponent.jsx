@@ -34,7 +34,9 @@ const ProfComponent = () => {
                 </a>
               </span>
               <span>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/josu%C3%A9-kouassi-538225292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                target= "blank"
+                rel="noopener noreferrer" >
                   <FaLinkedinIn />
                 </a>
               </span>
@@ -45,9 +47,9 @@ const ProfComponent = () => {
       <Slide direction="right">
         <Profile>
           <img
-            src= {require ('../../assets/profil.jpeg').default}
+            src={process.env.PUBLIC_URL + '/assets/profil.jpg'}
             alt="profile"
-            style={{ width: '50px', height: '50px' }}
+            style={{ width: '200px', height: '200px' }}
           />
         </Profile>
       </Slide>
